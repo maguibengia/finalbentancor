@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*----plantillas del proyeclto, reseteo, declaraciones de las tipografias, colores de fondo, animaciones, tamaño de tipografía----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+/*----tarjetas, botones, header, footer, formularios----*/
+.navbar {
+  background-color: #2ec4b6;
+  width: 100%;
+  border: solid 0.3em;
+}
+
+.titulo__principal {
+  font-family: "Secular One", sans-serif;
+}
+
+.navbar-nav {
+  font-family: "Roboto Mono", monospace;
+}
+
+.footer {
+  background-color: #2ec4b6;
+  width: 100%;
+  border: solid 0.3em;
+}
+.footer ul {
+  gap: 5px;
+  color: black;
+}
+.footer li {
+  color: black;
+  margin-top: 15px;
+}
+
+.h2 {
+  margin: 3em;
+}
+
+.h2__div {
+  width: 50%;
+}
+
+.h2__mismo {
+  font-family: "Roboto Mono", monospace;
+  background-color: lightcoral;
+  font-size: 2rem;
+}
+
+.div > h2 {
+  font-size: 1em;
+}
+
+.p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+.btn-sobris {
+  background-color: black;
+  border: lightcoral 3px solid;
+  color: white;
+}
+
+.btn-sobris:hover {
+  background-color: #2ec4b6;
+  border: black 3px solid;
+  color: white;
+}
+
+.tia__mangui {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+}
+
+.preguntaseria {
+  font-family: "Roboto Mono", monospace;
+  background-color: lightcoral;
+}
+
+/*# sourceMappingURL=style.css.map */

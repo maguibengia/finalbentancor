@@ -1,0 +1,33 @@
+/*----tarjetas, botones, header, footer, formularios----*/
+.navbar {
+    background-color: #2ec4b6;
+    width: 100%;
+    border: solid 0.3em
+}
+
+
+.titulo__principal {
+    font-family: 'Secular One', sans-serif;
+}
+
+
+.navbar-nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.footer {
+    background-color: #2ec4b6;
+    width: 100%;
+    border: solid 0.3em;
+
+    ul {
+        gap: 5px;
+        color: black;
+    }
+
+    li {
+        color: black;
+        margin-top: 15px;
+    }
+}

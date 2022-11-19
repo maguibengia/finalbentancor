@@ -1,0 +1,41 @@
+.h2 {
+    margin: 3em;
+}
+
+.h2__div {
+    width: 50%;
+}
+
+.h2__mismo {
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+
+.div>h2 {
+    font-size: 1em;
+}
+
+.p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+.btn-sobris {
+    background-color: black;
+    border: lightcoral 3px solid;
+    color: white;
+}
+
+.btn-sobris:hover {
+    background-color: #2ec4b6;
+    border: black 3px solid;
+    color: white;
+}
+
+.tia__mangui {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}

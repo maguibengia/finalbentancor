@@ -1,0 +1,23 @@
+/*----plantillas del proyeclto, reseteo, declaraciones de las tipografias, colores de fondo, animaciones, tamaño de tipografía----*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Secular One', sans-serif; 
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    ul,
+    ol {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-family: 'Roboto Mono', monospace; 
+        font-size: 0.5em;
+        font-weight: normal;
+    }
