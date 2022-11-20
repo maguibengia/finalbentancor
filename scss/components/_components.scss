@@ -8,23 +8,15 @@
     }
 }
 
-
-.titulo__principal {
-    font-family: 'Secular One', sans-serif;
-}
-
-
-
-
-
 .footer {
     background-color: #2ec4b6;
     width: 100%;
     border: solid 0.3em;
+    color:rgb(0, 0, 0);
 
     ul {
         gap: 5px;
-        color: black;
+        color: rgb(0, 0, 0);
     }
 
     li {

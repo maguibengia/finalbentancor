@@ -26,8 +26,8 @@ a {
   font-family: "Secular One";
   font-size: 2rem;
   font-weight: lighter;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 85px;
+  margin-bottom: 65px;
   margin-left: 10px;
 }
 .h2 .h2__div {
@@ -59,18 +59,15 @@ a {
   font-family: "Roboto Mono", monospace;
 }
 
-.titulo__principal {
-  font-family: "Secular One", sans-serif;
-}
-
 .footer {
   background-color: #2ec4b6;
   width: 100%;
   border: solid 0.3em;
+  color: rgb(0, 0, 0);
 }
 .footer ul {
   gap: 5px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .footer li {
   color: black;
