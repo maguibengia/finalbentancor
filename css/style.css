@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Secular One", sans-serif;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Secular One", sans-serif, "Roboto Mono", monospace;
 }
 
 ul,
@@ -17,19 +16,51 @@ a {
   text-decoration: none;
 }
 
+.h1 {
+  font-family: "Secular One";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.h2 {
+  font-family: "Secular One";
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-left: 10px;
+}
+.h2 .h2__div {
+  width: 85%;
+}
+.h2 .h2__mismo {
+  background-color: lightcoral;
+}
+
+.h3 {
+  font-family: "Roboto Mono";
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.p {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+}
+
 /*----tarjetas, botones, header, footer, formularios----*/
 .navbar {
   background-color: #2ec4b6;
   width: 100%;
   border: solid 0.3em;
 }
+.navbar .navbar-nav {
+  font-family: "Roboto Mono", monospace;
+}
 
 .titulo__principal {
   font-family: "Secular One", sans-serif;
-}
-
-.navbar-nav {
-  font-family: "Roboto Mono", monospace;
 }
 
 .footer {
@@ -98,16 +129,11 @@ textarea {
   display: block;
 }
 
-.h2 {
-  margin: 3em;
-}
-
 .h2__div {
-  width: 50%;
+  width: 85%;
 }
 
 .h2__mismo {
-  font-family: "Roboto Mono", monospace;
   background-color: lightcoral;
 }
 
@@ -127,6 +153,42 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: antiquewhite;
+}
+
+.fotoredonda {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/cakepops.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.fotoredonda1 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/maquillajeju.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.fotoredonda2 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/yogatime2.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.fotoredonda3 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/dibujamosjuli.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .preguntaseria {

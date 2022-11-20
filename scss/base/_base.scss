@@ -1,19 +1,53 @@
 /*----plantillas del proyeclto, reseteo, declaraciones de las tipografias, colores de fondo, animaciones, tamaño de tipografía----*/
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family:'Secular One', sans-serif; 
-        font-family: 'Roboto Mono', monospace;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif, 'Roboto Mono', monospace;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h1 {
+    font-family: 'Secular One';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.h2 {
+    font-family: 'Secular One';
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+
+    .h2__div {
+        width: 85%;
     }
-    
-    ul,
-    ol {
-        list-style: none;
+
+    .h2__mismo {
+        background-color: lightcoral;
     }
-    
-    a {
-        text-decoration: none;
-    }
-   
+
+}
+
+.h3 {
+    font-family: 'Roboto Mono';
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+.p {
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    font-weight: initial;
+}
