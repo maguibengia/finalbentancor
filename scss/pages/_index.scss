@@ -1,29 +1,118 @@
+.container__imagenes {
+    width: 100%;
+    margin: auto;
 
 
-.h2__div {
-    width: 85%;
+    .imagenes {
+        width: 400px;
+        height: 350px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        gap: 10px;
+        object-fit: cover;
+        border-radius: 10px;
+        border-color: #e71d36 10px;
+        border-style: ridge;
+
+    }
 }
 
-.h2__mismo {
-    background-color: lightcoral;
+.imagenes2 {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    gap: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-style: ridge;
+    background-size: contain;
+}
+
+.p__bio {
+    width: 400px;
+    height: 210px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    row-gap: 10px;
+    background-color: #f8b75b;
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    font-weight: initial;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.p__bio1 {
+    width: 400px;
+    height: 210px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    row-gap: 10px;
+    background-color: #00b4d8;
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    font-weight: initial;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.container__libre {
+
+    height: 54vh;
+
+    .plibre {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-family: 'Roboto Mono';
+        font-size: 1rem;
+        font-weight: initial;
+        background-color: #e06372;
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.img__libre {
+        margin-left: 25px;
+        margin-right: 10px;
+        object-fit: cover;
+        border-radius: 10px;
+        border-style: ridge;
+    }
+}
+.fede__dibujo{
+    margin-left: 50px;
+
+}
+.p__fededibujo{   
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    font-weight: initial;
+    background-color: #5cb9b0;
+    height: 378px;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-top: 60px;
 }
 
 
+.fotochiquitos {
+    border-radius: 10px;
+    border-style: ridge;
+}
 
 .btn-sobris {
     background-color: black;
     border: lightcoral 3px solid;
     color: white;
-}
 
-.btn-sobris:hover {
-    background-color: #2ec4b6;
-    border: black 3px solid;
-    color: white;
-}
-
-.tia__mangui {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: antiquewhite;
+    .btn-sobris:hover {
+        background-color: #2ec4b6;
+        border: black 3px solid;
+        color: white;
+    }
 }

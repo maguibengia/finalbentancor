@@ -22,19 +22,25 @@ a {
   font-weight: bold;
 }
 
+.h2__primero {
+  margin-top: 30px;
+  background-color: #011627;
+  margin-bottom: 20px;
+  color: #fdfffc;
+}
+
 .h2 {
   font-family: "Secular One";
   font-size: 2rem;
   font-weight: lighter;
   margin-top: 85px;
-  margin-bottom: 65px;
+  margin-bottom: 20px;
   margin-left: 10px;
+  color: #fdfffc;
+  background-color: #011627;
 }
 .h2 .h2__div {
   width: 85%;
-}
-.h2 .h2__mismo {
-  background-color: lightcoral;
 }
 
 .h3 {
@@ -65,11 +71,11 @@ a {
   border: solid 0.3em;
   color: rgb(0, 0, 0);
 }
-.footer ul {
+.footer .ul {
   gap: 5px;
   color: rgb(0, 0, 0);
 }
-.footer li {
+.footer .li {
   color: black;
   margin-top: 15px;
 }
@@ -126,12 +132,106 @@ textarea {
   display: block;
 }
 
-.h2__div {
-  width: 85%;
+.container__imagenes {
+  width: 100%;
+  margin: auto;
+}
+.container__imagenes .imagenes {
+  width: 400px;
+  height: 350px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  gap: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-color: #e71d36 10px;
+  border-style: ridge;
 }
 
-.h2__mismo {
-  background-color: lightcoral;
+.imagenes2 {
+  width: 400px;
+  height: 350px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  gap: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-style: ridge;
+  background-size: contain;
+}
+
+.p__bio {
+  width: 400px;
+  height: 210px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  row-gap: 10px;
+  background-color: #f8b75b;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.p__bio1 {
+  width: 400px;
+  height: 210px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  row-gap: 10px;
+  background-color: #00b4d8;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.container__libre {
+  height: 54vh;
+}
+.container__libre .plibre {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  background-color: #e06372;
+  height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container__libre .img__libre {
+  margin-left: 25px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-style: ridge;
+}
+
+.fede__dibujo {
+  margin-left: 50px;
+}
+
+.p__fededibujo {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  background-color: #5cb9b0;
+  height: 378px;
+  padding-left: 10px;
+  padding-right: 25px;
+  padding-top: 60px;
+}
+
+.fotochiquitos {
+  border-radius: 10px;
+  border-style: ridge;
 }
 
 .btn-sobris {
@@ -139,17 +239,10 @@ textarea {
   border: lightcoral 3px solid;
   color: white;
 }
-
-.btn-sobris:hover {
+.btn-sobris .btn-sobris:hover {
   background-color: #2ec4b6;
   border: black 3px solid;
   color: white;
-}
-
-.tia__mangui {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: antiquewhite;
 }
 
 .fotoredonda {

@@ -21,21 +21,24 @@ a {
     font-size: 3rem;
     font-weight: bold;
 }
-
+.h2__primero {
+    margin-top: 30px;
+    background-color:#011627;
+    margin-bottom: 20px;
+    color: #fdfffc;
+}
 .h2 {
     font-family: 'Secular One';
     font-size: 2rem;
     font-weight: lighter;
     margin-top: 85px;
-    margin-bottom: 65px;
+    margin-bottom: 20px;
     margin-left: 10px;
+    color: #fdfffc;
+    background-color:#011627;
 
     .h2__div {
         width: 85%;
-    }
-
-    .h2__mismo {
-        background-color: lightcoral;
     }
 
 }
