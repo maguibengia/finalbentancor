@@ -145,7 +145,6 @@ textarea {
   gap: 10px;
   object-fit: cover;
   border-radius: 10px;
-  border-color: #e71d36 10px;
   border-style: ridge;
 }
 
@@ -175,6 +174,8 @@ textarea {
   padding-left: 20px;
   padding-right: 10px;
   padding-top: 10px;
+  border-radius: 10px;
+  border-style: ridge;
 }
 
 .p__bio1 {
@@ -190,6 +191,8 @@ textarea {
   padding-left: 20px;
   padding-right: 10px;
   padding-top: 10px;
+  border-radius: 10px;
+  border-style: ridge;
 }
 
 .container__libre {
@@ -205,8 +208,11 @@ textarea {
   height: 200px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 10px;
+  border-style: ridge;
 }
-.container__libre .img__libre {
+
+.img__libre {
   margin-left: 25px;
   margin-right: 10px;
   object-fit: cover;
@@ -216,6 +222,8 @@ textarea {
 
 .fede__dibujo {
   margin-left: 50px;
+  border-radius: 10px;
+  border-style: ridge;
 }
 
 .p__fededibujo {
@@ -227,6 +235,56 @@ textarea {
   padding-left: 10px;
   padding-right: 25px;
   padding-top: 60px;
+  border-radius: 10px;
+  border-style: ridge;
+}
+
+.p__tomas {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  background-color: #5cb9b0;
+  height: 378px;
+  padding-left: 10px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border-style: ridge;
+}
+
+.p__federica {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  background-color: #f8b75b;
+  height: 378px;
+  padding-left: 10px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border-style: ridge;
+}
+
+.p__julieta {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  background-color: #e06372;
+  height: 378px;
+  padding-left: 10px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border-style: ridge;
+}
+
+.p__emiliano {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  background-color: #00b4d8;
+  height: 378px;
+  padding-left: 10px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border-style: ridge;
 }
 
 .fotochiquitos {
