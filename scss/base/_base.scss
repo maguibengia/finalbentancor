@@ -45,14 +45,24 @@ a {
 
 .h3 {
     font-family: 'Roboto Mono';
-    font-size: 2rem;
-    font-weight: lighter;
-
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  #2ec4b6;
+    margin-top: 5px;
+    
+}
+.h3__irn {
+    font-family: 'Roboto Mono';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8b75b;
+    margin-top: 5px;
 }
 
 .p {
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
+   
 }
 

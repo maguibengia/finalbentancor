@@ -1,0 +1,20 @@
+.img__irlanda {
+    border-radius: 10px;
+    box-shadow: inset;
+        }
+
+.img__irlanda:hover{
+        filter: grayscale(75%);
+    }
+
+.img__irn {
+    border-top-left-radius: 50px 100px;
+    border-radius: 50px 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.img__irn:hover {
+        filter:sepia(88%);
+    }

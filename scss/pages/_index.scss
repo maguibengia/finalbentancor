@@ -167,14 +167,35 @@
     border-style: ridge;
 }
 
-.btn-sobris {
+.btn {
     background-color: black;
-    border: lightcoral 3px solid;
     color: white;
 
-    .btn-sobris:hover {
-        background-color: #2ec4b6;
-        border: black 3px solid;
-        color: white;
     }
-}
+
+.btn-sobris__toto:hover {
+
+        background-color: #2ec4b6;
+        border-style: dashed;
+        color:  black;
+    } 
+.btn-sobris__fede:hover {
+    
+        background-color: #f8b75b;
+        border-style: dashed;
+        color:  black;
+    } 
+.btn-sobris__juli:hover {
+    
+        background-color: #e06372;
+        border-style: dashed;
+        color:  black;
+    } 
+
+.btn-sobris__emi:hover {
+    
+        background-color: #00b4d8;
+        border-style: dashed;
+        color:  black;
+    } 
+

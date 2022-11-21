@@ -45,8 +45,18 @@ a {
 
 .h3 {
   font-family: "Roboto Mono";
-  font-size: 2rem;
-  font-weight: lighter;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2ec4b6;
+  margin-top: 5px;
+}
+
+.h3__irn {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8b75b;
+  margin-top: 5px;
 }
 
 .p {
@@ -292,15 +302,54 @@ textarea {
   border-style: ridge;
 }
 
-.btn-sobris {
+.btn {
   background-color: black;
-  border: lightcoral 3px solid;
   color: white;
 }
-.btn-sobris .btn-sobris:hover {
+
+.btn-sobris__toto:hover {
   background-color: #2ec4b6;
-  border: black 3px solid;
-  color: white;
+  border-style: dashed;
+  color: black;
+}
+
+.btn-sobris__fede:hover {
+  background-color: #f8b75b;
+  border-style: dashed;
+  color: black;
+}
+
+.btn-sobris__juli:hover {
+  background-color: #e06372;
+  border-style: dashed;
+  color: black;
+}
+
+.btn-sobris__emi:hover {
+  background-color: #00b4d8;
+  border-style: dashed;
+  color: black;
+}
+
+.img__irlanda {
+  border-radius: 10px;
+  box-shadow: inset;
+}
+
+.img__irlanda:hover {
+  filter: grayscale(75%);
+}
+
+.img__irn {
+  border-top-left-radius: 50px 100px;
+  border-radius: 50px 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.img__irn:hover {
+  filter: sepia(88%);
 }
 
 .fotoredonda {
