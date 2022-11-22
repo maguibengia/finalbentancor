@@ -33,7 +33,7 @@ a {
   font-family: "Secular One";
   font-size: 2rem;
   font-weight: lighter;
-  margin-top: 30px;
+  margin-top: 85px;
   margin-bottom: 20px;
   margin-left: 10px;
   color: #fdfffc;
@@ -332,7 +332,7 @@ textarea {
 }
 
 .img__irlanda {
-  border-radius: 150px;
+  border-radius: 10px;
   box-shadow: inset;
 }
 
@@ -343,56 +343,13 @@ textarea {
 .img__irn {
   border-top-left-radius: 50px 100px;
   border-radius: 50px 100px;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-right: 10px;
   margin-top: 25px;
-  padding-left: 55px;
 }
 
 .img__irn:hover {
-  filter: saturate(300%);
-}
-
-.p__irn1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 85px;
-}
-
-.p__irn2 {
-  margin-top: 85px;
-  margin-bottom: 30px;
-  margin-left: 0px;
-}
-
-.p__uru {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 0px;
-}
-
-.img__uru {
-  border-radius: 100px;
-  margin-right: 30px;
-  margin-left: 10px;
-  margin-top: 25px;
-  padding-left: 55px;
-}
-
-.img__uru:hover {
-  filter: sepia(99%);
-}
-
-.img__dansk {
-  border-radius: 100px;
-  margin-right: 15px;
-  margin-left: 35px;
-  margin-top: 25px;
-  margin-bottom: 35px;
-}
-
-.img__dansk:hover {
-  filter: drop-shadow(55%);
+  filter: sepia(88%);
 }
 
 .fotoredonda {
@@ -436,4 +393,4 @@ textarea {
   background-color: lightcoral;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.com.map */
