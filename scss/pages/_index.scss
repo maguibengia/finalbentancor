@@ -36,7 +36,6 @@
     margin-bottom: 30px;
     margin-left: 30px;
     row-gap: 10px;
-    background-color: #f8b75b;
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
@@ -53,7 +52,6 @@
     margin-bottom: 30px;
     margin-left: 30px;
     row-gap: 10px;
-    background-color: #00b4d8;
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
@@ -75,7 +73,6 @@
         font-family: 'Roboto Mono';
         font-size: 1rem;
         font-weight: initial;
-        background-color: #e06372;
         height: 200px;
         padding-left: 10px;
         padding-right: 10px;
@@ -105,7 +102,6 @@
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
-    background-color: #5cb9b0;
     height: 378px;
     padding-left: 10px;
     padding-right: 25px;
@@ -118,7 +114,6 @@
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
-    background-color: #5cb9b0;
     height: 378px;
     padding-left: 10px;
     padding-right: 25px;
@@ -129,7 +124,6 @@
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
-    background-color: #f8b75b;
     height: 378px;
     padding-left: 10px;
     padding-right: 25px;
@@ -140,7 +134,6 @@
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
-    background-color: #e06372;
     height: 378px;
     padding-left: 10px;
     padding-right: 25px;
@@ -151,7 +144,6 @@
     font-family: 'Roboto Mono';
     font-size: 1rem;
     font-weight: initial;
-    background-color: #00b4d8;
     height: 378px;
     padding-left: 10px;
     padding-right: 25px;
@@ -170,6 +162,7 @@
 .btn {
     background-color: black;
     color: white;
+    margin: auto;
 
     }
 
