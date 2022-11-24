@@ -67,25 +67,26 @@ a {
 
 /*----tarjetas, botones, header, footer, formularios----*/
 .navbar {
-  background-color: #2ec4b6;
+  background: rgb(144, 242, 225);
+  background: linear-gradient(90deg, rgb(144, 242, 225) 2%, rgb(7, 190, 159) 61%, rgb(6, 10, 121) 100%);
   width: 100%;
   border: solid 0.3em;
 }
-.navbar .navbar-nav {
+.navbar nav {
   font-family: "Roboto Mono", monospace;
 }
 
 .footer {
-  background-color: #2ec4b6;
+  background: rgb(144, 242, 225);
+  background: linear-gradient(90deg, rgb(144, 242, 225) 2%, rgb(7, 190, 159) 61%, rgb(6, 10, 121) 100%);
   width: 100%;
   border: solid 0.3em;
-  color: rgb(0, 0, 0);
 }
-.footer .ul {
+.footer ul {
   gap: 5px;
   color: rgb(0, 0, 0);
 }
-.footer .li {
+.footer li {
   color: black;
   margin-top: 15px;
 }
@@ -95,7 +96,8 @@ form {
   padding: 16px;
   border-radius: 10px;
   margin: auto;
-  background-color: #ccc;
+  background-color: #2ec4b6;
+  margin-bottom: 55px;
 }
 
 form label {
@@ -199,48 +201,6 @@ textarea {
   padding-left: 20px;
   padding-right: 10px;
   padding-top: 10px;
-  border-radius: 10px;
-  border-style: ridge;
-}
-
-.container__libre {
-  height: 54vh;
-}
-.container__libre .plibre {
-  margin-left: 30px;
-  margin-right: 30px;
-  font-family: "Roboto Mono";
-  font-size: 1rem;
-  font-weight: initial;
-  height: 200px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  border-style: ridge;
-}
-
-.img__libre {
-  margin-left: 25px;
-  margin-right: 10px;
-  object-fit: cover;
-  border-radius: 10px;
-  border-style: ridge;
-}
-
-.fede__dibujo {
-  margin-left: 50px;
-  border-radius: 10px;
-  border-style: ridge;
-}
-
-.p__fededibujo {
-  font-family: "Roboto Mono";
-  font-size: 1rem;
-  font-weight: initial;
-  height: 378px;
-  padding-left: 10px;
-  padding-right: 25px;
-  padding-top: 60px;
   border-radius: 10px;
   border-style: ridge;
 }
@@ -395,6 +355,7 @@ textarea {
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
+  object-fit: cover;
 }
 
 .fotoredonda1 {
@@ -404,6 +365,7 @@ textarea {
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
+  object-fit: cover;
 }
 
 .fotoredonda2 {
@@ -413,6 +375,7 @@ textarea {
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
+  object-fit: cover;
 }
 
 .fotoredonda3 {
@@ -422,6 +385,29 @@ textarea {
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
+  object-fit: cover;
+}
+
+.h2__a {
+  font-family: "Secular One";
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: #fdfffc;
+  background-color: #011627;
+}
+
+.h3__a {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: #e06372;
+  width: 60%;
+}
+
+.img__disney {
+  border-radius: 35px;
+  object-fit: cover;
 }
 
 .imagen__dibujo {
@@ -438,6 +424,15 @@ textarea {
   font-size: 1rem;
   font-weight: initial;
   padding-left: 80px;
+}
+
+.p__s2 {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+  padding-left: 80px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .svg {
@@ -465,6 +460,22 @@ textarea {
   background-color: #e06372;
   width: 50%;
   margin-top: 15px;
+}
+
+.h3__s {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  padding-top: 25px;
+  margin-left: 55px;
+}
+
+.despedida {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  animation: reverse;
+  padding-left: 55px;
 }
 
 .preguntaseria {

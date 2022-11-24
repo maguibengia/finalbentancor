@@ -1,26 +1,27 @@
 /*----tarjetas, botones, header, footer, formularios----*/
 .navbar {
-	background-color: #2ec4b6;
+	background: rgb(144, 242, 225);
+	background: linear-gradient(90deg, rgba(144, 242, 225, 1) 2%, rgba(7, 190, 159, 1) 61%, rgba(6, 10, 121, 1) 100%);
 	width: 100%;
 	border: solid 0.3em;
 
-	.navbar-nav {
+	nav {
 		font-family: 'Roboto Mono', monospace;
 	}
 }
 
 .footer {
-	background-color: #2ec4b6;
+	background: rgb(144, 242, 225);
+	background: linear-gradient(90deg, rgba(144, 242, 225, 1) 2%, rgba(7, 190, 159, 1) 61%, rgba(6, 10, 121, 1) 100%);
 	width: 100%;
 	border: solid 0.3em;
-	color: rgb(0, 0, 0);
 
-	.ul {
+	ul {
 		gap: 5px;
 		color: rgb(0, 0, 0);
 	}
 
-	.li {
+	li {
 		color: black;
 		margin-top: 15px;
 	}
@@ -31,7 +32,8 @@ form {
 	padding: 16px;
 	border-radius: 10px;
 	margin: auto;
-	background-color: #ccc;
+	background-color: #2ec4b6;
+	margin-bottom: 55px;
 }
 
 form label {
