@@ -447,7 +447,8 @@ textarea {
   font-weight: lighter;
   margin-bottom: 20px;
   color: black;
-  background-color: #e06372;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
   width: 50%;
 }
 
@@ -457,7 +458,8 @@ textarea {
   font-weight: lighter;
   margin-bottom: 20px;
   color: black;
-  background-color: #e06372;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
   width: 50%;
   margin-top: 15px;
 }
@@ -478,9 +480,53 @@ textarea {
   padding-left: 55px;
 }
 
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s both;
+  animation: tracking-in-expand 0.7s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .preguntaseria {
   font-family: "Roboto Mono", monospace;
-  background-color: lightcoral;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.p__c {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: initial;
+}
+
+.fondo {
+  background-image: url(../img/email-pattern.png);
 }
 
 /*# sourceMappingURL=style.css.map */

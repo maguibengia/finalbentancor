@@ -37,7 +37,8 @@
     font-weight: lighter;
     margin-bottom: 20px;  
     color: black;
-    background-color: #e06372;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     width: 50%;
 }
 .h2__s1 {
@@ -46,7 +47,8 @@
     font-weight: lighter;
     margin-bottom: 20px;  
     color: black;
-    background-color: #e06372;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     width: 50%;
     margin-top: 15px;  
   
@@ -66,3 +68,33 @@
     animation: reverse;
     padding-left: 55px;
 }
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s both;
+	 animation: tracking-in-expand 0.7s both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

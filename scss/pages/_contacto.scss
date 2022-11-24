@@ -1,4 +1,17 @@
 .preguntaseria {
     font-family: 'Roboto Mono', monospace;
-    background-color: lightcoral;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.p__c{
+    margin-top: 35px;
+    margin-bottom: 15px; 
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    font-weight: initial;
+}
+.fondo {
+    background-image: url(../img/email-pattern.png);
 }
