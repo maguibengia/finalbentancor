@@ -40,7 +40,7 @@ a {
   background-color: #011627;
 }
 .h2 .h2__div {
-  width: 85%;
+  width: 50%;
 }
 
 .h3 {
@@ -438,6 +438,33 @@ textarea {
   font-size: 1rem;
   font-weight: initial;
   padding-left: 80px;
+}
+
+.svg {
+  margin: 55px;
+  width: 200px;
+  height: auto;
+}
+
+.h2__s {
+  font-family: "Secular One";
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: black;
+  background-color: #e06372;
+  width: 50%;
+}
+
+.h2__s1 {
+  font-family: "Secular One";
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: black;
+  background-color: #e06372;
+  width: 50%;
+  margin-top: 15px;
 }
 
 .preguntaseria {
