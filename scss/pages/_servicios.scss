@@ -22,7 +22,13 @@
     padding-left: 80px;
     margin-top: 25px;
     margin-bottom: 25px;
-
+}
+@media(min-width:356px){
+  .p__s {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.5rem;
+  }
 }
 
 .svg { 
@@ -62,39 +68,20 @@
     margin-left: 55px;
     
 }
+.h4__s{
+  font-family: 'Roboto Mono';
+  font-size: 1rem;
+  font-weight: bold;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  padding-top: 25px;
+  margin-left: 55px;
+}
 .despedida {
     margin-top: 25px;
     margin-bottom: 25px;
     animation: reverse;
     padding-left: 55px;
 }
-.tracking-in-expand {
-	-webkit-animation: tracking-in-expand 0.7s both;
-	 animation: tracking-in-expand 0.7s both;
-}
 
- @-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
   

@@ -16,16 +16,14 @@
 	width: 100%;
 	border: solid 0.3em;
 
-	ul {
+	ul, li {
 		gap: 5px;
-		color: rgb(0, 0, 0);
-	}
-
-	li {
 		color: black;
 		margin-top: 15px;
+		font-family: 'Roboto Mono', monospace;
 	}
-}
+	}
+
 
 form {
 	width: 300px;

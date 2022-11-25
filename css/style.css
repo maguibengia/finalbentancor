@@ -82,13 +82,11 @@ a {
   width: 100%;
   border: solid 0.3em;
 }
-.footer ul {
+.footer ul, .footer li {
   gap: 5px;
-  color: rgb(0, 0, 0);
-}
-.footer li {
   color: black;
   margin-top: 15px;
+  font-family: "Roboto Mono", monospace;
 }
 
 form {
@@ -435,6 +433,13 @@ textarea {
   margin-bottom: 25px;
 }
 
+@media (min-width: 356px) {
+  .p__s {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.5rem;
+  }
+}
 .svg {
   margin: 55px;
   width: 200px;
@@ -473,6 +478,16 @@ textarea {
   margin-left: 55px;
 }
 
+.h4__s {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: bold;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+  padding-top: 25px;
+  margin-left: 55px;
+}
+
 .despedida {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -480,35 +495,6 @@ textarea {
   padding-left: 55px;
 }
 
-.tracking-in-expand {
-  -webkit-animation: tracking-in-expand 0.7s both;
-  animation: tracking-in-expand 0.7s both;
-}
-
-@-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .preguntaseria {
   font-family: "Roboto Mono", monospace;
   background: rgb(63, 94, 251);
